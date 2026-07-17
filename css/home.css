@@ -76,6 +76,8 @@ nav ul li:hover::after {
 
 }
 
+/* BAGIAN TEXT */
+
 .content { 
     display: flex;
 
@@ -107,6 +109,7 @@ nav ul li:hover::after {
 .prgf {
     display: flex;
     gap: 30px;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 
@@ -144,15 +147,21 @@ nav ul li:hover::after {
     background-color: var(--primary-color);
     border-style: solid;
     border-radius: 10px;
-    padding: 5px;
+    font-size: 14px;
+    padding: 9px;
     padding-right: 13px;
 }
 
 .link-here {
+    display: flex;
+    align-items: center;      
+    justify-content: center;       
     color: var(--body-bg);
+}
+
+.link-here svg {
+    padding-right: 5px;
     text-decoration: none;
-    font-size: 13px;
-    
 }
 
 .download {
@@ -162,7 +171,7 @@ nav ul li:hover::after {
     border-style: solid;
     border-color: var(--thirty-color);
     border-radius: 10px;
-    padding-right: 30px;
+    padding-right: 26px;
     padding-left: 15px;
     gap: 10px;
     
@@ -173,7 +182,7 @@ nav ul li:hover::after {
     align-items: center;
     color: var(--primary-color);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     
 }
 
