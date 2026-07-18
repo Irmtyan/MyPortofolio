@@ -97,7 +97,7 @@ span {
     font-family: "Lato", sans-serif;
     display: inline-block;
     color: #a9dc87;
-    text-shadow: 0 1px 0 #ed997b, 0 2px 0 #ed997b, 0 3px 0 #ed997b, 0 4px 0 #ed997b, 0 5px 0 #ed997b, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px transparent, 0 10px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 0 #334552, 0 2px 0 #334552, 0 3px 0 #334552, 0 4px 0 #334552, 0 5px 0 #334552, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px transparent, 0 10px 10px rgba(0, 0, 0, 0.5);
     animation: bounce 0.4s ease infinite alternate;
 }
 
