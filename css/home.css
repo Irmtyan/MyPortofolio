@@ -1,9 +1,9 @@
-:root {
-    --primary-color: #334552;
-    --secondary-color:  #cfe1b9;
-    --thirty-color: #293043;
-    --body-bg: #e9f5db;
-    --four-color: ;
+:root{
+    --primary-color:#334552;
+    --secondary-color:#CFE1B9;
+    --body-bg:#E8F2D7;
+    --accent:#A7C957;
+    --text:#2F3E46;
 }
 
 body {
@@ -84,21 +84,66 @@ nav ul li:hover::after {
 }
 
 .text {
-    color: var(--primary-color);
+    color: var(--text);
     margin-left: 150px;
     margin-top: 50px;
-    width: 80%;
-    padding-right: 200px;
+    width: 100%;
+    padding-right: 80px;
+}
+
+/* Animation HALLO */
+span {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+    color: #a9dc87;
+    text-shadow: 0 1px 0 #ed997b, 0 2px 0 #ed997b, 0 3px 0 #ed997b, 0 4px 0 #ed997b, 0 5px 0 #ed997b, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px transparent, 0 10px 10px rgba(0, 0, 0, 0.5);
+    animation: bounce 0.4s ease infinite alternate;
+}
+
+.animation span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.animation span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.animation span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.animation span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.animation span:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.animation span:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+@keyframes bounce {
+    100% {
+        text-shadow:  0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px transparent, 0 10px 10px rgba(0, 0, 0, 0.5);
+    }
+     from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
 }
 
 .text h1 {
     font-size: 50px;
-    line-height: 1.4;
     margin-bottom: 0px;
 }
 
 .text h3 {
-    font-size: 25px;
+    font-size: 23px;
 
 }
 
@@ -145,7 +190,7 @@ nav ul li:hover::after {
     display: flex;
     align-items: center;      
     justify-content: center;       
-    background-color: var(--primary-color);
+    background-color: var(--text);
     border-style: solid;
     border-radius: 10px;
     font-size: 14px;
@@ -194,7 +239,7 @@ hr {
 }
 
 .page-foto {
-    margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 60px;
     padding-top: 80px;
+    padding-left: 70px;
 }
