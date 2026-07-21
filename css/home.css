@@ -320,7 +320,8 @@ hr {
 }
 
 .page-foto {
-    margin-top: 60px;
-    padding-top: 80px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 0;
     padding-left: 70px;
 }
