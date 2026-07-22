@@ -1,13 +1,8 @@
 :root {
     --body-bg: #FFFFFF;
-    --secondary-color: #90AB8B;
-    --accent-color: #5A7863;
     --primary-color: #3B4953;
-    --text-color: #2F3A42;
     --text-brown: #6D4300;
 }
-
-
 
 body {
     background: linear-gradient(to right, rgb(255,255,255), rgb(245,215,173));
@@ -67,7 +62,7 @@ nav ul li::after {
 }
 
 nav ul li:hover {
-    color: var(--secondary-color);
+    color: var(--text-brown);
 }
 
 nav ul li:hover::after {
@@ -285,7 +280,6 @@ nav ul li:hover::after {
 .link-here svg {
     padding-right: 5px;
     text-decoration: none;
-    color:var(--accent-color);
 }
 
 .download {
