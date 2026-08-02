@@ -1,21 +1,16 @@
-:root {
-    --body-bg: #FFFFFF;
-    --primary-color: #3B4953;
-    --text-brown: #6D4300;
-}
-
-body {
+.bg-about {
+    background: var(--body-white);
     color: var(--primary-color);
 }
 
-.judul {
-    font-size: 2.5rem;
-    color: var(--text-brown);
+.about-title {
+    font-size: 3rem;
+    color: var(--primary-color);
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5.5rem;
 }
 
-.content {
+.about-content {
     display: flex;
 }
 
@@ -24,8 +19,7 @@ body {
     border-color: blue; */
 
     width: 65%;
-    padding-top: 60px;
-    padding-right: 40px;
+    padding-top: 70px;
     text-align: center;
 }
 
@@ -34,12 +28,14 @@ body {
     /* border-style: solid;
     border-color: blue; */
     
-    width: 100%;
-    padding-right: 40px;
-    padding-top: px;
+    color: black;
+    width: 65%;
+    padding-right: 50px;
+    margin-bottom: 5.5rem;
 }
 
-.isi{
+.about-isi{
+    padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
@@ -50,7 +46,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     padding-top: 20px;
 }
 
@@ -61,7 +56,7 @@ body {
     width:  40px;
     height: 40px;
     background: transparent;
-    border: 0.2rem solid #3B4953;
+    border: 0.2rem solid #0D95C5;
     border-radius: 50px;
     color: var(--primary-color);
     margin: 3px 8px;
@@ -73,7 +68,7 @@ body {
     scale: 1.2;
     color: white;
     background-color: var(--primary-color);
-    filter: drop-shadow(0 0 5px rgb(109,67,0));
+    filter: drop-shadow(0 0 5px #0D95C5);
 }
 
 

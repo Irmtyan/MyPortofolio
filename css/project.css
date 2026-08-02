@@ -1,0 +1,92 @@
+.bg-project{
+    background: var(--body-blue);
+}
+
+.project-title {
+    font-size: 2.5rem;   
+    color: var(--title);
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.project-card1 {
+    color: var(--title);
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+
+}
+
+.project-card1 p {
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+.card-proj1 {
+    background: var(--body-white);
+    border-style: solid white;
+    border-radius:15px;
+    
+    margin-left: 50px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.card-proj2 {
+    background: var(--body-white);
+    border-style: solid white;
+    border-radius:15px;
+
+    margin-right: 50px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.project-card2 {
+    color: var(--title);
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 6rem;
+
+}
+
+.card-proj3 {
+    background: var(--body-white);
+    border-style: solid white;
+    border-radius:15px;
+    
+    margin-left: 50px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.card-proj4 {
+    background: var(--body-white);
+    border-style: solid white;
+    border-radius:15px;
+
+    margin-right: 50px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.view-proj {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+
+    border-radius: 20px;
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
