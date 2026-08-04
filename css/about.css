@@ -1,5 +1,5 @@
 .bg-about {
-    background: var(--body-white);
+    background: #F8FAFD;
     color: var(--primary-color);
 }
 
@@ -56,16 +56,16 @@
     width:  40px;
     height: 40px;
     background: transparent;
-    border: 0.2rem solid #0D95C5;
+    border: 2.6px solid #0D95C5;
     border-radius: 50px;
     color: var(--primary-color);
     margin: 3px 8px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     transition: 0.2s linear;
 }
 
 .social i:hover{
-    scale: 1.2;
+    scale: 1.1;
     color: white;
     background-color: var(--primary-color);
     filter: drop-shadow(0 0 5px #0D95C5);
