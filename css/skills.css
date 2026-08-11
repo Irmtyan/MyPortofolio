@@ -1,0 +1,19 @@
+.bg-skills{
+    background: var(--body-white);
+}
+
+.skills-title {
+    font-size: 2.5rem;   
+    color: var(--title);
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.p {
+    padding: 0 55px;
+    justify-content: baseline;
+    text-align: justify;
+    padding-bottom: 5rem;
+}
+
