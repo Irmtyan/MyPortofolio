@@ -1,5 +1,5 @@
 .bg-about {
-    background: #F8FAFD;
+    background: var(--bg-bone);
     color: var(--primary-color);
 }
 
